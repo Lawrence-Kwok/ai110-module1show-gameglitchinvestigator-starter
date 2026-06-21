@@ -11,7 +11,9 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 While running the game for the first time and playing through it through several iterations, several bugs were noted:
 
 (1) The hints were the opposite of the direction that the player should be 
+
 (2) After pressing "New Game" after a win or game over the game doesn't reset and doesn't respond to any new inputs
+
 (3) When entering a number out of range, instead of saying the input is invalid or out of range, it alternates between
 saying go Lower or go Higher
 
