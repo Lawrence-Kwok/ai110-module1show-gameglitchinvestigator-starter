@@ -4,10 +4,6 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 ## 1. What was broken when you started?
 
-- What did the game look like the first time you ran it?
-- List at least two concrete bugs you noticed at the start  
-  (for example: "the hints were backwards").
-
 While running the game for the first time and playing through it through several iterations, several bugs were noted:
 
 (1) The hints were the opposite of the direction that the player should be 
