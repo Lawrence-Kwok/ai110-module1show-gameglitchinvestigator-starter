@@ -11,7 +11,7 @@ def parse_guess(raw: str):
     """
     raise NotImplementedError("Refactor this function from app.py into logic_utils.py")
 
-
+# FIX: Port over the logic from the app.py file as identified by claude
 def check_guess(guess, secret):
     """
     Compare guess to secret and return (outcome, message).
