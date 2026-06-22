@@ -1,11 +1,10 @@
 from logic_utils import check_guess
 from streamlit.testing.v1 import AppTest
+from unittest.mock import patch
+import streamlit as st
 
-ATTEMPT_LIMIT_MAP = {
-    "Easy": 8,
-    "Normal": 6,
-    "Hard": 5,
-}
+with patch.object(st, "set_page_config", lambda **kwargs: None):
+    from app import attempt_limit_map as ATTEMPT_LIMIT_MAP
 
 def test_new_game_button_resets_status_after_win():
     at = AppTest.from_file("app.py").run()
