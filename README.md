@@ -25,13 +25,20 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [X] Describe the game's purpose.
+- [X] Detail which bugs you found.
+- [X] Explain what fixes you applied.
 
-## 📸 Demo
+## 📸 Demo Walkthrough
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [X] [Insert Textual Demo Walkthrough]
+
+1. User enters a guess of 23
+2. Game returns "Go Higher"
+3. User enters a guess of 60
+4. Game returns "Go LOWER!"
+4. Score is reduced after every incorrect guess
+5. Game ends after the correct guess or attempts run out
 
 ## 🚀 Stretch Features
 

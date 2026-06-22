@@ -49,8 +49,6 @@ AI helped scaffold the asserts for the three bugs, and helped me understand how 
 
 ## 4. What did you learn about Streamlit and state?
 
-- How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
-
 Streamlit "reruns" are bascially like page refreshes in the browser when triggered.
 However this also erases any progress that has occurred if there isn't a persistent note to keep track of changes. 
 Thats where the session state comes into play, where you store things like a post-it note to remind you of changes to remember. 
