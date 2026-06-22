@@ -10,8 +10,9 @@ While running the game for the first time and playing through it through several
 
 (2) After pressing "New Game" after a win or game over the game doesn't reset and doesn't respond to any new inputs
 
-(3) When entering a number out of range, instead of saying the input is invalid or out of range, it alternates between
-saying go Lower or go Higher
+(3) When entering a number out of range, instead of saying the input is invalid or out of range, it alternates between saying go Lower or go Higher
+
+(4) When toggling between difficulties, the Normal difficulty has more attempts available than the Easy difficulty (7 to 5)
 
 | Input Used  | Expected Behavior | Actual Behavior | Console Error / Output |
 | :---------------- | :---- | :---- | :---- |
@@ -19,6 +20,7 @@ saying go Lower or go Higher
 | guess of 100 on Normal| Correct or Go Lower| Go Higher | None |
 | guess of 400 on Normal| Out of Range / Invalid | Go Higher / Go Lower | None | 
 | Pressing New Game After Win or Game Over | Reset | Game Over Message or You Won Message Persists| None |
+| Changing from Easy to Normal | Decreased in Attempts from 5  | Attempts increased to 7 | None |
 
 ---
 
