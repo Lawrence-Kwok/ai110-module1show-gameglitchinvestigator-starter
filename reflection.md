@@ -22,9 +22,6 @@ saying go Lower or go Higher
 | guess of 400 on Normal| Out of Range / Invalid | Go Higher / Go Lower | None | 
 | Pressing New Game After Win or Game Over | Reset | Game Over Message or You Won Message Persists| None |
 
-Input Used | Expected Behavior | Actual Behavior | Console Error / Output
--------------------------------------------------------------------------
-
 ---
 
 ## 2. How did you use AI as a teammate?
@@ -33,7 +30,7 @@ Input Used | Expected Behavior | Actual Behavior | Console Error / Output
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
-In this case I used the Claude plugin for VSCode, which 
+In this case I used both the Claude plugin for VSCode and Github co, which 
 
 ---
 
